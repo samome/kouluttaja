@@ -223,9 +223,9 @@ const Frontpage = () => {
               <Grid.Column width={3}>
                 <Header inverted as='h4' content='Lecturers' />
                 <List link inverted>
-                  <List.Item as='a'>Fansu Janneh</List.Item>
-                  <List.Item as='a'>Tanja Varvio</List.Item>
-                  <List.Item as='a'>Samo Meritie</List.Item>
+                  <List.Item>fansu.janneh@tuni.fi</List.Item>
+                  <List.Item>tanja.varvio@tuni.fi</List.Item>
+                  <List.Item>samo.meritie@tuni.fi</List.Item>
                 </List>
               </Grid.Column>
               <Grid.Column width={3}>
