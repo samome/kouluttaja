@@ -13,13 +13,9 @@ import {
   Segment,
   Sidebar,
   Visibility,
-  Dropdown,
 } from 'semantic-ui-react';
 import FurtherInfo from '../FurtherInfo';
 
-// Heads up!
-// We using React Static to prerender our docs with server side rendering, this is a quite simple solution.
-// For more advanced usage please check Responsive docs under the "Usage" section.
 const getWidth = () => {
   const isSSR = typeof window === 'undefined';
 
@@ -38,7 +34,7 @@ const HomepageHeading = ({ mobile }) => (
 
     <Header
       as='h2'
-      content='Web-ohjelmoinnin perusteet ja ylläpito!'
+      content='Web-ohjelmoinnin perusteet ja ylläpito'
       inverted
       style={{
         fontSize: mobile ? '1.5em' : '1.7em',
@@ -273,7 +269,12 @@ const Frontpage = () => {
             Kurssin sisältö
           </Header>
           <p style={{ fontSize: '1.33em' }}>
-          Sed fringilla sollicitudin turpis, nec auctor mi. Fusce ultrices tristique felis, vitae feugiat nulla porttitor dapibus. Fusce aliquam mauris vitae tempus congue. Nulla feugiat arcu nec luctus malesuada. Sed et lacus risus. Curabitur et nibh nulla. Sed ut ante vitae purus gravida feugiat quis nec elit. Aliquam vestibulum a leo ut auctor.
+            Sed fringilla sollicitudin turpis, nec auctor mi. Fusce ultrices
+            tristique felis, vitae feugiat nulla porttitor dapibus. Fusce
+            aliquam mauris vitae tempus congue. Nulla feugiat arcu nec luctus
+            malesuada. Sed et lacus risus. Curabitur et nibh nulla. Sed ut ante
+            vitae purus gravida feugiat quis nec elit. Aliquam vestibulum a leo
+            ut auctor.
           </p>
           <Button
             as='a'
@@ -295,7 +296,18 @@ const Frontpage = () => {
             Tietoja kouluttajista
           </Header>
           <p style={{ fontSize: '1.33em' }}>
-           Mauris feugiat nibh a ipsum lobortis, et interdum orci pretium. Sed auctor convallis pulvinar. Pellentesque a felis quis eros commodo cursus. Sed congue non felis nec gravida. Nam eros lectus, porttitor vitae egestas et, venenatis vel nisl. Morbi vehicula pellentesque metus, et vestibulum enim iaculis non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In id blandit sem, a convallis lacus. Phasellus at sem vitae velit elementum dignissim. Morbi tempus scelerisque sapien, vitae mattis dolor lacinia non. Curabitur egestas ipsum libero, at cursus dui luctus sed. Sed luctus dui a luctus pharetra. Mauris gravida leo quis sem ullamcorper iaculis. Integer sollicitudin venenatis rhoncus. Praesent in vestibulum turpis, sit amet posuere nibh.
+            Mauris feugiat nibh a ipsum lobortis, et interdum orci pretium. Sed
+            auctor convallis pulvinar. Pellentesque a felis quis eros commodo
+            cursus. Sed congue non felis nec gravida. Nam eros lectus, porttitor
+            vitae egestas et, venenatis vel nisl. Morbi vehicula pellentesque
+            metus, et vestibulum enim iaculis non. Class aptent taciti sociosqu
+            ad litora torquent per conubia nostra, per inceptos himenaeos. In id
+            blandit sem, a convallis lacus. Phasellus at sem vitae velit
+            elementum dignissim. Morbi tempus scelerisque sapien, vitae mattis
+            dolor lacinia non. Curabitur egestas ipsum libero, at cursus dui
+            luctus sed. Sed luctus dui a luctus pharetra. Mauris gravida leo
+            quis sem ullamcorper iaculis. Integer sollicitudin venenatis
+            rhoncus. Praesent in vestibulum turpis, sit amet posuere nibh.
           </p>
         </Container>
       </Segment>
@@ -325,9 +337,7 @@ const Frontpage = () => {
                 <Header as='h4' inverted>
                   Kouluttajien motto
                 </Header>
-                <p>
-                 "Tee asiat niin, että oppilas on apinan tasolla"
-                </p>
+                <p>"Tee asiat niin, että oppilas on apinan tasolla"</p>
               </Grid.Column>
             </Grid.Row>
           </Grid>
