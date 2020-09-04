@@ -4,9 +4,9 @@ import CourseContent from './CourseContent';
 import CourseTasks from './CourseTasks';
 import CourseVideos from './CourseVideos';
 const panes = [
-  { menuItem: 'Kurssin sisältö', render: () => <CourseContent /> },
-  { menuItem: 'Tehtävät', render: () => <CourseTasks /> },
-  { menuItem: 'Videot', render: () => <CourseVideos /> },
+  { menuItem: 'Course Content', render: () => <CourseContent /> },
+  { menuItem: 'Exercises', render: () => <CourseTasks /> },
+  { menuItem: 'Videos', render: () => <CourseVideos /> },
 ];
 
 const FurtherInfo = () => {
